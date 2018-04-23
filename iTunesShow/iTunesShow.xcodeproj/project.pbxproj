@@ -104,6 +104,10 @@
 		18EF8057208E617A00B0EAA3 /* iTunesShow */ = {
 			isa = PBXGroup;
 			children = (
+				18EF8089208E66A100B0EAA3 /* Tool */,
+				18EF8088208E664D00B0EAA3 /* Controller */,
+				18EF8086208E664500B0EAA3 /* Model */,
+				18EF8087208E664500B0EAA3 /* View */,
 				18EF8058208E617A00B0EAA3 /* AppDelegate.swift */,
 				18EF805A208E617A00B0EAA3 /* ViewController.swift */,
 				18EF805C208E617A00B0EAA3 /* Main.storyboard */,
@@ -130,6 +134,34 @@
 				18EF807A208E617A00B0EAA3 /* Info.plist */,
 			);
 			path = iTunesShowUITests;
+			sourceTree = "<group>";
+		};
+		18EF8086208E664500B0EAA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EF8087208E664500B0EAA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EF8088208E664D00B0EAA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18EF8089208E66A100B0EAA3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		7479DECB5F2B7F5A66A6D1D4 /* Frameworks */ = {
