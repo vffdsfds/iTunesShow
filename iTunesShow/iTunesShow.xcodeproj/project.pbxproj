@@ -15,6 +15,19 @@
 		18EF806E208E617A00B0EAA3 /* iTunesShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF806D208E617A00B0EAA3 /* iTunesShowTests.swift */; };
 		18EF8079208E617A00B0EAA3 /* iTunesShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8078208E617A00B0EAA3 /* iTunesShowUITests.swift */; };
 		18EF808D208E67C300B0EAA3 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF808C208E67C300B0EAA3 /* Header.swift */; };
+		18EF8091208E6B2100B0EAA3 /* PageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8090208E6B2100B0EAA3 /* PageStyle.swift */; };
+		18EF8093208E6BEB00B0EAA3 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8092208E6BEB00B0EAA3 /* PageView.swift */; };
+		18EF8095208E6C3800B0EAA3 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8094208E6C3800B0EAA3 /* TitleView.swift */; };
+		18EF8097208E6CC600B0EAA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8096208E6CC600B0EAA3 /* ContentView.swift */; };
+		18EF809C208E6F1900B0EAA3 /* AppleAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8098208E6F1900B0EAA3 /* AppleAppViewController.swift */; };
+		18EF809D208E6F1900B0EAA3 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8099208E6F1900B0EAA3 /* BooksViewController.swift */; };
+		18EF809E208E6F1900B0EAA3 /* AppleMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF809A208E6F1900B0EAA3 /* AppleMusicViewController.swift */; };
+		18EF809F208E6F1900B0EAA3 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF809B208E6F1900B0EAA3 /* BaseTableViewController.swift */; };
+		18EF80A1208E6F8400B0EAA3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF80A0208E6F8400B0EAA3 /* Model.swift */; };
+		18EF80A6208E6FC400B0EAA3 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF80A3208E6FC400B0EAA3 /* BookCell.swift */; };
+		18EF80A7208E6FC400B0EAA3 /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF80A4208E6FC400B0EAA3 /* MusicCell.swift */; };
+		18EF80A8208E6FC400B0EAA3 /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF80A5208E6FC400B0EAA3 /* AppCell.swift */; };
+		18EF80AA208E6FD800B0EAA3 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF80A9208E6FD800B0EAA3 /* BaseCell.swift */; };
 		54ED127A3207F7B2F26DDDF7 /* Pods_iTunesShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FC15BE6E80147FBF33FF97 /* Pods_iTunesShow.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +63,19 @@
 		18EF8078208E617A00B0EAA3 /* iTunesShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesShowUITests.swift; sourceTree = "<group>"; };
 		18EF807A208E617A00B0EAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EF808C208E67C300B0EAA3 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		18EF8090208E6B2100B0EAA3 /* PageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageStyle.swift; sourceTree = "<group>"; };
+		18EF8092208E6BEB00B0EAA3 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		18EF8094208E6C3800B0EAA3 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		18EF8096208E6CC600B0EAA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18EF8098208E6F1900B0EAA3 /* AppleAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleAppViewController.swift; sourceTree = "<group>"; };
+		18EF8099208E6F1900B0EAA3 /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		18EF809A208E6F1900B0EAA3 /* AppleMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicViewController.swift; sourceTree = "<group>"; };
+		18EF809B208E6F1900B0EAA3 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		18EF80A0208E6F8400B0EAA3 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		18EF80A3208E6FC400B0EAA3 /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		18EF80A4208E6FC400B0EAA3 /* MusicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+		18EF80A5208E6FC400B0EAA3 /* AppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
+		18EF80A9208E6FD800B0EAA3 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		B7FC15BE6E80147FBF33FF97 /* Pods_iTunesShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D95452025221CB0052165A /* Pods-iTunesShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesShow/Pods-iTunesShow.release.xcconfig"; sourceTree = "<group>"; };
 		D5D8A87D09544837BC3E9358 /* Pods-iTunesShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesShow/Pods-iTunesShow.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +168,7 @@
 		18EF8086208E664500B0EAA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18EF80A0208E6F8400B0EAA3 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +176,8 @@
 		18EF8087208E664500B0EAA3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18EF80A2208E6FB700B0EAA3 /* TableViewCell */,
+				18EF808F208E6AAA00B0EAA3 /* SegmentControllerView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +185,10 @@
 		18EF8088208E664D00B0EAA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				18EF8098208E6F1900B0EAA3 /* AppleAppViewController.swift */,
+				18EF809A208E6F1900B0EAA3 /* AppleMusicViewController.swift */,
+				18EF809B208E6F1900B0EAA3 /* BaseTableViewController.swift */,
+				18EF8099208E6F1900B0EAA3 /* BooksViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,6 +198,28 @@
 			children = (
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		18EF808F208E6AAA00B0EAA3 /* SegmentControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				18EF8090208E6B2100B0EAA3 /* PageStyle.swift */,
+				18EF8092208E6BEB00B0EAA3 /* PageView.swift */,
+				18EF8094208E6C3800B0EAA3 /* TitleView.swift */,
+				18EF8096208E6CC600B0EAA3 /* ContentView.swift */,
+			);
+			path = SegmentControllerView;
+			sourceTree = "<group>";
+		};
+		18EF80A2208E6FB700B0EAA3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18EF80A9208E6FD800B0EAA3 /* BaseCell.swift */,
+				18EF80A5208E6FC400B0EAA3 /* AppCell.swift */,
+				18EF80A3208E6FC400B0EAA3 /* BookCell.swift */,
+				18EF80A4208E6FC400B0EAA3 /* MusicCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		7479DECB5F2B7F5A66A6D1D4 /* Frameworks */ = {
@@ -379,9 +434,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EF80A8208E6FC400B0EAA3 /* AppCell.swift in Sources */,
+				18EF8093208E6BEB00B0EAA3 /* PageView.swift in Sources */,
+				18EF809C208E6F1900B0EAA3 /* AppleAppViewController.swift in Sources */,
+				18EF8091208E6B2100B0EAA3 /* PageStyle.swift in Sources */,
+				18EF80AA208E6FD800B0EAA3 /* BaseCell.swift in Sources */,
+				18EF80A1208E6F8400B0EAA3 /* Model.swift in Sources */,
+				18EF80A6208E6FC400B0EAA3 /* BookCell.swift in Sources */,
+				18EF8097208E6CC600B0EAA3 /* ContentView.swift in Sources */,
 				18EF805B208E617A00B0EAA3 /* ViewController.swift in Sources */,
+				18EF809E208E6F1900B0EAA3 /* AppleMusicViewController.swift in Sources */,
 				18EF808D208E67C300B0EAA3 /* Header.swift in Sources */,
+				18EF80A7208E6FC400B0EAA3 /* MusicCell.swift in Sources */,
 				18EF8059208E617A00B0EAA3 /* AppDelegate.swift in Sources */,
+				18EF8095208E6C3800B0EAA3 /* TitleView.swift in Sources */,
+				18EF809F208E6F1900B0EAA3 /* BaseTableViewController.swift in Sources */,
+				18EF809D208E6F1900B0EAA3 /* BooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
