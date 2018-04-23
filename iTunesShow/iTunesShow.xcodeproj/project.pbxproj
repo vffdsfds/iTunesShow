@@ -14,6 +14,7 @@
 		18EF8063208E617A00B0EAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EF8061208E617A00B0EAA3 /* LaunchScreen.storyboard */; };
 		18EF806E208E617A00B0EAA3 /* iTunesShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF806D208E617A00B0EAA3 /* iTunesShowTests.swift */; };
 		18EF8079208E617A00B0EAA3 /* iTunesShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF8078208E617A00B0EAA3 /* iTunesShowUITests.swift */; };
+		54ED127A3207F7B2F26DDDF7 /* Pods_iTunesShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FC15BE6E80147FBF33FF97 /* Pods_iTunesShow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		18EF8074208E617A00B0EAA3 /* iTunesShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF8078208E617A00B0EAA3 /* iTunesShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesShowUITests.swift; sourceTree = "<group>"; };
 		18EF807A208E617A00B0EAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FC15BE6E80147FBF33FF97 /* Pods_iTunesShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D95452025221CB0052165A /* Pods-iTunesShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesShow/Pods-iTunesShow.release.xcconfig"; sourceTree = "<group>"; };
+		D5D8A87D09544837BC3E9358 /* Pods-iTunesShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesShow/Pods-iTunesShow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54ED127A3207F7B2F26DDDF7 /* Pods_iTunesShow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				18EF806C208E617A00B0EAA3 /* iTunesShowTests */,
 				18EF8077208E617A00B0EAA3 /* iTunesShowUITests */,
 				18EF8056208E617A00B0EAA3 /* Products */,
+				8C466F50C88E558D6FAFD9C5 /* Pods */,
+				7479DECB5F2B7F5A66A6D1D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = iTunesShowUITests;
 			sourceTree = "<group>";
 		};
+		7479DECB5F2B7F5A66A6D1D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC15BE6E80147FBF33FF97 /* Pods_iTunesShow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C466F50C88E558D6FAFD9C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5D8A87D09544837BC3E9358 /* Pods-iTunesShow.debug.xcconfig */,
+				D3D95452025221CB0052165A /* Pods-iTunesShow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18EF807D208E617A00B0EAA3 /* Build configuration list for PBXNativeTarget "iTunesShow" */;
 			buildPhases = (
+				18DD22F83A41032C26D97166 /* [CP] Check Pods Manifest.lock */,
 				18EF8051208E617A00B0EAA3 /* Sources */,
 				18EF8052208E617A00B0EAA3 /* Frameworks */,
 				18EF8053208E617A00B0EAA3 /* Resources */,
+				30B0031D1602524ECF2AAEF2 /* [CP] Embed Pods Frameworks */,
+				7D5780F45C8A657B693789D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18DD22F83A41032C26D97166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTunesShow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30B0031D1602524ECF2AAEF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iTunesShow/Pods-iTunesShow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesShow/Pods-iTunesShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5780F45C8A657B693789D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesShow/Pods-iTunesShow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18EF8051208E617A00B0EAA3 /* Sources */ = {
@@ -424,6 +509,7 @@
 		};
 		18EF807E208E617A00B0EAA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D8A87D09544837BC3E9358 /* Pods-iTunesShow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +524,7 @@
 		};
 		18EF807F208E617A00B0EAA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D95452025221CB0052165A /* Pods-iTunesShow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

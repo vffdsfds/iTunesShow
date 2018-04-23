@@ -1,0 +1,6 @@
+framework module Pods_iTunesShow {
+  umbrella header "Pods-iTunesShow-umbrella.h"
+
+  export *
+  module * { export * }
+}
