@@ -38,7 +38,7 @@ class MusicCell: BaseCell {
                    iconImage.snp.makeConstraints { (make) in
                       make.top.equalToSuperview().offset(5)
                       make.width.height.equalTo(pageViewFrame.width/2-10)
-                    print("frame\(pageViewFrame.width)")
+                  //  print("frame\(pageViewFrame.width)")
                       make.left.equalToSuperview().offset(space)
                    }
                 default :

@@ -21,13 +21,13 @@ class BooksViewController : UIViewController {
         view.backgroundColor = UIColor.white
         
         //布局
-      //  let layout = NDCollectionView()
+        let layout = CXCollectionView()
         
         
         //创建collectionView
-//        collectionView = UICollectionView.init(frame: CGRect(x: 0, y: 0, width: pageViewFrame.width, height: SCREEN_HEIGH ), collectionViewLayout: layout)
+       collectionView = UICollectionView.init(frame: CGRect(x: 0, y: 0, width: pageViewFrame.width, height: SCREEN_HEIGH ), collectionViewLayout: layout)
        
-       // view.addSubview(collectionView)
+        view.addSubview(collectionView)
         
         collectionView.dataSource = self as UICollectionViewDataSource
         collectionView.delegate = self as UICollectionViewDelegate
